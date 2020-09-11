@@ -3,7 +3,7 @@
 # Section: 10
 # Breakout: 1
 
-def getLettergrade(grade):
+def getLetterGrade(grade):
   if (grade >= 93.0):
      return "A"
   elif (grade>= 90.0 ):
@@ -26,7 +26,7 @@ def getLettergrade(grade):
 def run():
   grade = input("Enter your CMPSC 131 grade: ")
   grade = float(grade)
-  print(f"Your letter grade for CMPSC 131 is {getLettergrade(grade)}.")
+  print(f"Your letter grade for CMPSC 131 is {getLetterGrade(grade)}.")
 
 if __name__ == "__main__":
   run()
