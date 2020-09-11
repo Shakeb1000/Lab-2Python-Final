@@ -28,5 +28,5 @@ def run():
   grade = float(grade)
   print(f"Your letter grade for CMPSC 131 is {getLettergrade(grade)}.")
 
-  if __name__ == "__main__":
-    run
+if __name__ == "__main__":
+  run()
