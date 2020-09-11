@@ -5,23 +5,23 @@
 
 def getLettergrade(grade):
   if (grade >= 93.0):
-    return "A"
+     return "A"
   elif (grade>= 90.0 ):
-    return "A-"
+     return "A-"
   elif (grade>= 87.0):
-    return "B+"
+     return "B+"
   elif (grade>= 83.0):
-    return "B"
+     return "B"
   elif (grade>= 80.0):
-    return "B-"
+     return "B-"
   elif (grade>= 77.0):
-    return "C+"
+     return "C+"
   elif (grade>= 70.0):
-    return "C"
+     return "C"
   elif (grade>= 60.0):
-    return "D"
+     return "D"
   else:
-    return "F"
+     return "F"
 
 def run():
   grade = input("Enter your CMPSC 131 grade: ")
